@@ -442,7 +442,7 @@ CheckKey.MouseButton1Click:Connect(function()
             game.CoreGui:FindFirstChild("NovalockKeySystem"):Destroy()
             local creator = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Creator.CreatorTargetId
             local TARGET_SUBSTRING = "Bubble Gum Simulator" or "Hunters" or "Dead Rails" or "Arise Crossover"
-            local REPLACEMENT_TEXT = "novalock.lua | .gg/mQw2Ymsh7y | Freemium"
+            local REPLACEMENT_TEXT = "novalock.lua | .gg/GgD3qe4VNp | Freemium"
 
             local games = {
                 [7381705] = 'https://api.luarmor.net/files/v3/loaders/f6c9f276f7d6a7dd6edfd0173d7a211d.lua', -- Fisch
